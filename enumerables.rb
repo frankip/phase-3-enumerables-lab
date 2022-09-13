@@ -27,6 +27,8 @@ def spiciest_foods(spicy_foods)
     if food[:heat_level] > 5
       food
     end
+  end
+    
 end
 
 # given an array of spicy foods, **output to the terminal**
@@ -71,14 +73,15 @@ def print_spiciest_foods(spicy_foods)
     if food[:heat_level] >= 5
        puts "#{food[:name]} (#{food[:cuisine]}) Heat Level: #{🌶* food[:heat_level]}"
     end
+  end
 end
 
 # given an array of spicy foods, return an integer representing 
 # the average heat level of all the spicy foods in the array
 def average_heat_level(spicy_foods)
-  # your code here
-  # spicy_foods.each do |food|
-  #   total = sum(food[:heat_level])
-  #   avg = total/spicy_foods.length()
-  # end
+  your code here
+  spicy_foods.each do |food|
+    total = sum(food[:heat_level])
+    avg = total/spicy_foods.length()
+  end
 end
