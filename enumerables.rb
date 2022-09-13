@@ -71,7 +71,7 @@ def print_spiciest_foods(spicy_foods)
   # your code here
   spicy_foods.filter do |food|
     if food[:heat_level] >= 5
-       puts "#{food[:name]} (#{food[:cuisine]}) Heat Level: #{🌶* food[:heat_level]}"
+       puts "#{food[:name]} (#{food[:cuisine]}) Heat Level: #{food[:heat_level] *🌶}"
     end
   end
 end
